@@ -1,0 +1,11 @@
+#virual environment ignores
+findmenowVirtual
+
+
+
+#python specific ignores
+__pycache__/
+*.pyc
+
+#environment specific ignores
+.env
