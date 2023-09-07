@@ -1,7 +1,169 @@
 {% extends 'base.html' %}
 
 {% block content %}
+    <section class="hero">
+        <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+            <h1 class="display-5 fw-bold text-body-emphasis">Find Lost Items Quickly</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Find lost items and connect with others in your community. Report lost or found items, and let us help you reunite with your belongings.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-primary btn-sm px-3 gap-2">Report Lost Item</button>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-3">Report Found Item</button>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+   
+<!-- key features -->
+<section class="key-features">
+    <div class="container px-4 py-5">
+        <h2 class="pb-4 border-bottom">Key Features</h2>
+    
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-4">
+            <div class="col d-flex flex-column align-items-start gap-3">
+                <h2 class="fw-bold text-body-emphasis">Find Lost Items Quickly</h2>
+                <p class="text-body-secondary">Our platform offers a range of powerful features to help you recover lost items and connect with your community. Here are some of the key features:</p>
+                <a href="#" class="btn btn-primary btn-lg">Explore More</a>
+            </div>
+    
+            <div class="col">
+                <div class="row row-cols-1 row-cols-sm-2 g-4">
+                    <div class="col d-flex flex-column gap-3">
+                        <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                            <svg class="bi" width="1em" height="1em">
+                                <use xlink:href="#collection"></use>
+                            </svg>
+                        </div>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Item Database</h4>
+                        <p class="text-body-secondary">Easily search for lost or found items in our extensive database.</p>
+                    </div>
+    
+                    <div class="col d-flex flex-column gap-3">
+                        <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                            <svg class="bi" width="1em" height="1em">
+                                <use xlink:href="#gear-fill"></use>
+                            </svg>
+                        </div>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">User Profiles</h4>
+                        <p class="text-body-secondary">Create user profiles to manage your reported items and connect with others.</p>
+                    </div>
+    
+                    <div class="col d-flex flex-column gap-3">
+                        <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                            <svg class="bi" width="1em" height="1em">
+                                <use xlink:href="#speedometer"></use>
+                            </svg>
+                        </div>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Fast and Efficient</h4>
+                        <p class="text-body-secondary">Our platform is designed for quick item reporting and search.</p>
+                    </div>
+    
+                    <div class="col d-flex flex-column gap-3">
+                        <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                            <svg class="bi" width="1em" height="1em">
+                                <use xlink:href="#table"></use>
+                            </svg>
+                        </div>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Community Connection</h4>
+                        <p class="text-body-secondary">Connect with your local community to improve item recovery rates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
 
-    <h1>Hello World</h1>
+
+<!-- how it works -->
+
+<section class="bg-light p-5">
+    <section class="bg-light py-5">
+        <div class="container-fluid">
+            <h2 class="text-center mb-4">How It Works</h2>
+            <div class="row">
+                <!-- Step 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="step">
+                        <i class="fas fa-arrow-circle-right fa-3x text-primary"></i>
+                        <h4>Step 1</h4>
+                        <p>Report Lost or Found Item</p>
+                        <p>Tell us about the item and provide details. You can also upload pictures.</p>
+                    </div>
+                </div>
+    
+                <!-- Step 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="step">
+                        <i class="fas fa-arrow-circle-right fa-3x text-primary"></i>
+                        <h4>Step 2</h4>
+                        <p>Search for Items</p>
+                        <p>Explore the listings to find lost or found items in your area.</p>
+                    </div>
+                </div>
+    
+                <!-- Step 3 -->
+                <div class="col-lg-4 mx-auto mb-4">
+                    <div class="step">
+                        <i class="fas fa-arrow-circle-right fa-3x text-primary"></i>
+                        <h4>Step 3</h4>
+                        <p>Connect with Others</p>
+                        <p>Reach out to the item owner or finder through our secure messaging system.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+<!-- testimonials -->
+
+
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">What Our Users Say</h2>
+        <div class="row">
+            <!-- Testimonial 1 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0 shadow-lg">
+                    <img src="user1.jpg" class="card-img-top mx-auto mt-3 rounded-circle" alt="User 1">
+                    <div class="card-body text-center">
+                        <p class="card-text">"FindMeNow helped me locate my lost keys within hours. It's a lifesaver!"</p>
+                        <h5 class="card-title">John Doe</h5>
+                        <p class="card-subtitle">New York, NY</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0 shadow-lg">
+                    <img src="user2.jpg" class="card-img-top mx-auto mt-3 rounded-circle" alt="User 2">
+                    <div class="card-body text-center">
+                        <p class="card-text">"FindMeNow's community feature allowed me to connect with my neighbors and recover my lost dog. Amazing!"</p>
+                        <h5 class="card-title">Jane Smith</h5>
+                        <p class="card-subtitle">Los Angeles, CA</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0 shadow-lg">
+                    <img src="user3.jpg" class="card-img-top mx-auto mt-3 rounded-circle" alt="User 3">
+                    <div class="card-body text-center">
+                        <p class="card-text">"FindMeNow is a game-changer. It helped me reunite with my lost wallet in no time!"</p>
+                        <h5 class="card-title">Emily Brown</h5>
+                        <p class="card-subtitle">Chicago, IL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 {% endblock %}
